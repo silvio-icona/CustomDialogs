@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+	<Button android:id="@+id/normaldialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:text="Normal"
+	    android:textSize="24sp"
+	    />
+	
+	<Button android:id="@+id/popupbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/normaldialog"
+	    android:text="Popup"
+	    android:textSize="24sp"
+	    />
+		
+	<Button android:id="@+id/transparentdialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/popupbutton"
+	    android:text="Transparent"
+	    android:textSize="24sp"
+	    />
+
+</RelativeLayout>
